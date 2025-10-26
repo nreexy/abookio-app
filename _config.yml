@@ -1,0 +1,4 @@
+title: "Abookio"
+url: "https://abookio.app"
+plugins:
+  - jekyll-redirect-from
