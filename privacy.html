@@ -27,7 +27,7 @@
 </head>
 <body>
   <h1>Abookio Privacy Policy</h1>
-  <p><strong>Effective Date:</strong>26 October 2025</p>
+  <p><strong>Effective Date:</strong> November 2025</p>
 
   <h2>1. Introduction</h2>
   <p>Abookio is a privacy-first audiobook player that allows you to listen to your personal audiobook collection from local files or your own cloud storage. We do not collect, share, or sell personal data.</p>
@@ -36,7 +36,7 @@
   <p>Abookio does not collect or transmit any personal data, usage analytics, or identifiers to external servers or third parties.</p>
 
   <h2>3. Local Data Storage</h2>
-  <p>Your audiobook metadata, playback progress, bookmarks, notes, and collections are stored locally on your device and never sent to our servers. This data remains private to you.</p>
+  <p>Your audiobook metadata, playback progress, bookmarks, notes, collections, and ratings are stored locally on your device and never sent to our servers.</p>
 
   <h2>4. iCloud Sync</h2>
   <p>If you enable iCloud Sync (Abookio Pro feature), your audiobook metadata, progress, bookmarks, and notes are synced securely via Apple’s iCloud using end-to-end encryption. No other servers have access to this data.</p>
@@ -44,20 +44,45 @@
   <h2>5. Cloud Provider Connections</h2>
   <p>Abookio Pro users can connect their own cloud storage providers (Google Drive, Dropbox, OneDrive, or custom providers using a URL and API key). Connections use read-only access and are authenticated directly with the provider’s official login flow or user-provided credentials. Abookio does not have access to or store your cloud files.</p>
 
-  <h2>6. Purchases</h2>
+  <h2>6. Custom Provider Support</h2>
+  <p>When adding a custom provider, the app checks locally whether the service host is supported. If supported, access is read-only. If unsupported, users are informed. No provider details are sent to developer servers.</p>
+
+  <h2>7. Audiobook Files</h2>
+  <p>Abookio does not host or distribute audiobook content. All files are user-owned and stored locally or in personal cloud accounts. Deleting an audiobook removes local copies but retains metadata unless manually cleared.</p>
+
+  <h2>8. In-App Purchases</h2>
   <p>Abookio Pro is available as a one-time in-app purchase through the Apple App Store. All purchase processing is handled by Apple, and Abookio does not store payment or user account information.</p>
 
-  <h2>7. Email Communication</h2>
+  <h2>9. Email Communication</h2>
   <p>If you contact us via email at <a href="mailto:support@abookio.com">support@abookio.com</a>, your message and address are retained for up to 12 months for support purposes and then deleted automatically.</p>
 
-  <h2>8. User Rights</h2>
+  <h2>10. Barcode Scanning & Metadata Lookup</h2>
+  <p>Users may add books to collections by scanning barcodes with the device camera. Camera input is processed locally and not stored. The barcode value is used to perform metadata lookups using the Google Books API. Retrieved titles may be sent to Apple’s iTunes Store Search API for additional metadata. Camera images are not transmitted or stored by Abookio.</p>
+
+  <h2>11. Apple Intelligence On-Device Analysis</h2>
+  <p>Abookio may analyze audiobook descriptions locally using Apple Intelligence to extract primary locations and sorting keywords. Processing occurs entirely on device. No data is sent to external servers. Generated metadata is stored locally and may sync to the user’s personal iCloud account if enabled.</p>
+  <p>Abookio does not use Apple Intelligence for profiling, advertising, or behavioral analysis. Users may disable these features in system settings.</p>
+
+  <h2>12. Usage of Public Metadata</h2>
+  <p>Metadata retrieved from public sources (Google Books API, Apple iTunes Store Search API) is used only to populate user library information. No personal data is included in these requests.</p>
+
+  <h2>13. No Third-Party Analytics or Tracking</h2>
+  <p>Abookio does not include advertising SDKs, analytics frameworks, telemetry, or third-party tracking tools.</p>
+
+  <h2>14. User Control & Data Deletion</h2>
   <p>You can delete all local and iCloud-synced data at any time from within the app. No data remains on our systems, as we do not operate any user data servers.</p>
 
-  <h2>9. Children’s Privacy</h2>
+  <h2>15. Children’s Privacy</h2>
   <p>Abookio is intended for general audiences and does not knowingly collect personal information from children under 13.</p>
 
-  <h2>10. Contact</h2>
-  <p>For any privacy-related questions, contact:  
+  <h2>16. Security</h2>
+  <p>Data stored locally uses iOS Keychain encryption. Cloud access tokens are never visible to the developer. All optional iCloud data is end-to-end encrypted by Apple.</p>
+
+  <h2>17. Changes to This Policy</h2>
+  <p>This policy may be updated to reflect changes in functionality or legal requirements. Users will be notified in app update notes.</p>
+
+  <h2>18. Contact</h2>
+  <p>For any privacy-related questions, contact:<br>
   <strong>Email:</strong> <a href="mailto:support@abookio.com">support@abookio.com</a></p>
 
   <p><a href="https://abookio.app/support">← Back to Support</a></p>
