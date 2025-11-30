@@ -4,6 +4,18 @@ title: Changelog
 ---
 <p>Track the latest updates and improvements to Abookio.</p>
 
+<h2>Version 1.2.1</h2>
+<ul>
+  <li><strong>Playback:</strong> Introduced a new playback speed system offering fine-tuned control from 0.5x to 3.99x.</li>
+  <li><strong>Bookmarks:</strong> Added a "press and hold" gesture to the bookmark button for instant saving with haptic feedback.</li>
+  <li><strong>EPUB Reader (Preview):</strong> Added an experimental EPUB reader. Enable it in <em>Settings > Preview Features</em> and add EPUBs directly from the audiobook detail view.</li>
+  <li><strong>Integrations:</strong> Improved self-hosted integration reliability with specific fixes for Audiobookshelf and Plex Media Server on Windows.</li>
+  <li><strong>WebDAV:</strong> Enhanced WebDAV support with two-level folder discovery and smart caching for better performance with large libraries.</li>
+  <li><strong>Cloud:</strong> Implemented the native Google Drive file picker and improved overall reliability for cloud providers.</li>
+  <li><strong>Performance:</strong> Optimized memory usage, achieving up to 75% greater efficiency.</li>
+  <li><strong>Library:</strong> Added a new filter option to organize content by source.</li>
+</ul>
+
 <h2>2025-11-25 Version 1.1</h2>
 
 <h3>Audiobookshelf</h3>

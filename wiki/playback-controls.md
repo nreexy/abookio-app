@@ -20,10 +20,13 @@ title: Playback Controls
 <h3>Interface Options</h3>
 <ul>
   <li><strong>Show Remaining Time:</strong> Changes the default "Now Playing" progress bar to show the remaining time instead of the total duration.
-    <br><em>(Screenshots for total and remaining time will be added here)</em>
+    <br>
+    <img src="/wiki/images/totalTime.jpg" alt="Total Time" style="max-width: 45%; margin-right: 10px; border-radius: 8px; margin-top: 10px;">
+    <img src="/wiki/images/remainingTime.jpg" alt="Remaining Time" style="max-width: 45%; border-radius: 8px; margin-top: 10px;">
   </li>
   <li><strong>4 Button Layout:</strong> Adds an additional button to the bottom row which displays a counter of the time left in the current chapter. Tapping this button starts a sleep timer until the end of the chapter.
-    <br><em>(Screenshot will be added here)</em>
+    <br>
+    <img src="/wiki/images/fourButton.jpg" alt="4 Button Layout" style="max-width: 100%; border-radius: 8px; margin-top: 10px;">
   </li>
   <li><strong>Disable Lock Screen Scrubbing:</strong> Disables the native progress bar in the Control Center and Lock Screen to prevent accidental scrubbing or scrolling.</li>
 </ul>
